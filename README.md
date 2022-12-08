@@ -28,7 +28,7 @@ Project Insights:
     <th>Welcome Metric</th>
   </tr>
   <td>
-  ![image](https://user-images.githubusercontent.com/43470271/206456426-3607f760-562f-4e6b-a635-fd0bd2e41da2.png)
+    <img src="https://user-images.githubusercontent.com/43470271/206456426-3607f760-562f-4e6b-a635-fd0bd2e41da2.png">
   </td>
   <td>
     ![image](https://user-images.githubusercontent.com/43470271/206457155-7e3c42d7-30d0-45f0-98b4-239429148752.png)
