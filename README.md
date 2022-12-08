@@ -11,14 +11,14 @@ The project sponsor is an assistant professor at the School of Computing and Inf
 
 Research Question: **Leveraging Image Analysis and crowdsourcing to understand public perceptions on “What makes the area surrounding MRT stations in Singapore look Beautiful, Safe, and Welcome?”**
 
-![image](https://user-images.githubusercontent.com/43470271/206454596-d93ee30a-badc-4fed-ba44-2feefb97ff40.png)
+<img src="https://user-images.githubusercontent.com/43470271/206454596-d93ee30a-badc-4fed-ba44-2feefb97ff40.png">
 
 
 Brief Explanation of Image Analyses done:
 
 Project Insights:
 
-![image](https://user-images.githubusercontent.com/43470271/206454873-55f579a7-d350-41e3-97f0-f8ffad7158df.png)
+<img src="https://user-images.githubusercontent.com/43470271/206454873-55f579a7-d350-41e3-97f0-f8ffad7158df.png">
 
 *Descriptive Statistics*
 <table>
@@ -31,15 +31,12 @@ Project Insights:
     <img src="https://user-images.githubusercontent.com/43470271/206456426-3607f760-562f-4e6b-a635-fd0bd2e41da2.png">
   </td>
   <td>
-    ![image](https://user-images.githubusercontent.com/43470271/206457155-7e3c42d7-30d0-45f0-98b4-239429148752.png)
+    <img src="https://user-images.githubusercontent.com/43470271/206457155-7e3c42d7-30d0-45f0-98b4-239429148752.png">
   </td>
     <td>
-      ![image](https://user-images.githubusercontent.com/43470271/206457260-c8f8b6ff-476f-46a3-b779-3246a55d7299.png)
-      ![image](https://user-images.githubusercontent.com/43470271/206457474-e7790da9-be3f-42bf-a077-7fe10be23cc6.png)
+      <img src="https://user-images.githubusercontent.com/43470271/206457260-c8f8b6ff-476f-46a3-b779-3246a55d7299.png">
+      <img src="https://user-images.githubusercontent.com/43470271/206457474-e7790da9-be3f-42bf-a077-7fe10be23cc6.png">
   </td>
-  <tr>
-    
-  </tr>
   </table>
 
 
