@@ -7,20 +7,20 @@ This repository contains project artefacts that are produced as part of the Fina
 The project sponsor is an assistant professor at the School of Computing and Information Systems, Singapore Management University (SMU-SCIS) with an interest in Computational Social Science. She has kindly provided us with a Computational Social Science research project that is inspired by the the research paper “Aesthetic Capital: What makes London looks Beautiful, Quiet and Happy?” published by Yahoo Labs in 2014.
 
 
-##Project Overview: 
+## Project Overview: 
 
 Research Question: **Leveraging Image Analysis and crowdsourcing to understand public perceptions on “What makes the area surrounding MRT stations in Singapore look Beautiful, Safe, and Welcome?”**
 
 <img src="https://user-images.githubusercontent.com/43470271/206454596-d93ee30a-badc-4fed-ba44-2feefb97ff40.png">
 
 
-Brief Explanation of Image Analyses done:
+#### Brief Explanation of Image Analyses done:
 
-Project Insights:
+### Project Insights:
 
 <img src="https://user-images.githubusercontent.com/43470271/206454873-55f579a7-d350-41e3-97f0-f8ffad7158df.png">
 
-*Descriptive Statistics*
+**Descriptive Statistics**
 <table>
   <tr>
     <th>Beautiful Metric</th>
