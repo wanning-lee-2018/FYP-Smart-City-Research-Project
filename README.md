@@ -45,7 +45,7 @@ Here are the results based on the image ratings derived from the survey response
   </table>
   
 **Image Analysis(Colours)**
-The above results are obtained from performing correlation analysis and linear regression, where the results are statistically significant at 5% significance level. However, the r-square values of the linear regression models are low at 0.163, 0.098 and 0.123 respectively (for the qualities of "Beautiful", "Safe" and "Welcome”) which signifies that these colors alone are insufficient in explaining the changes in image ratings.
+For colours analysis, we used the skimage image processing python package to extract the RGB colours from each MRT image. Then, linear regression was applied on the colors extracted from each image to find out the effects of colors on image perception ratings for each of the 3 metrics (Beautiful,Safe, Welcome). Finally correlation analysis was done to select the colors that have a strong linear relationship with image perception ratings for each of the 3 image metrics. The results shown the the table below are statistically significant at 5% significance level. However, the r-square values of the linear regression models are low at 0.163, 0.098 and 0.123 respectively (for the qualities of "Beautiful", "Safe" and "Welcome”) which signifies that these colors alone are insufficient in explaining the changes in image ratings.
 
 <table>
   <tr>
@@ -66,12 +66,15 @@ The above results are obtained from performing correlation analysis and linear r
   </table>
   
 **Image Analysis(Object Detection)**
- For object detection, we used a pre-trained deep learning object detection model to detect objects in images and used correlation analysis to find the association between the objects detected in images and the image perception ratings for each of the metrics image perception ratings for each of the 3 metrics (Beautiful,Safe, Welcome).
+ For object detection, we used a pre-trained deep learning object detection model from the opencv image processing python package to detect unique objects from all the MRT images and used correlation analysis to find the association between the unique objects detected in images and the image perception ratings for each of the 3 metrics (Beautiful,Safe, Welcome).
  
 The results shown in the "Summary of Insights" table under the Project Overview for object detection are statistically significant at 5%
 significance level. Image below is a snippet of objects detected by the object detection model.
   <img src="https://user-images.githubusercontent.com/43470271/206466860-2d008886-7502-4e4a-a9ab-575af81a45fd.png">
 
 **Image Analysis(Bag of Visual Words)**
+For Bag of visual words, we used an image feature detector from the skimage image processing python package to extract key features from all MRT images. Take an image of a person as shown below, a human would identify the person’s key features as the nose, eyes and mouth. Hence, the image feature extractor aims to do the same. 
 <img src="https://user-images.githubusercontent.com/43470271/206468917-fd752a7e-d40b-43ef-8f26-2af6f1ecc166.png">
+
+K-means clustering was used thereafter to group and differentiate the most distinct and comprehensive features across all the MRT images(visual words). Finally, correlation analysis was performed to select the visual words that have a strong linear relationship with image perception ratings for each of the 3 image metrics.The following picture is an example of strongly correlated visual words identified in the MRT images 
 <img src="https://user-images.githubusercontent.com/43470271/206468732-62bf475d-0ec8-475b-bb5b-c15b1b421060.png">
