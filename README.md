@@ -18,9 +18,8 @@ The project artefacts in this repository includes:
 
 Note: Any references used in the project has been both in the last slide of the presentation and at respective code cells in the Jupyter Notebook.
 
-### Brief Explanation of Image Analyses done:
-
-### Project Insights:
+### Project Insights from analyses done:
+*Note:For more details on the analysis methods, please refer to the presentation slide*
 
 <img src="https://user-images.githubusercontent.com/43470271/206454873-55f579a7-d350-41e3-97f0-f8ffad7158df.png">
 
@@ -67,8 +66,9 @@ The above results are obtained from performing correlation analysis and linear r
   </table>
   
 **Image Analysis(Object Detection)**
- For object detection, we used a pre-trained deep learning object detection model to detect objects in
-images. The results shown in the "Summary of Insights" table under the Project Overview for object detection are statistically significant at 5%
+ For object detection, we used a pre-trained deep learning object detection model to detect objects in images and used correlation analysis to find the association between the objects detected in images and the image perception ratings for each of the metrics image perception ratings for each of the 3 metrics (Beautiful,Safe, Welcome).
+ 
+The results shown in the "Summary of Insights" table under the Project Overview for object detection are statistically significant at 5%
 significance level. Image below is a snippet of objects detected by the object detection model.
   <img src="https://user-images.githubusercontent.com/43470271/206466860-2d008886-7502-4e4a-a9ab-575af81a45fd.png">
 
