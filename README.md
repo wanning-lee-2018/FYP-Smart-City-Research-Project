@@ -70,12 +70,12 @@ For colours analysis, we used the skimage image processing python package to ext
  
 The results shown in the "Summary of Insights" table under the Project Overview for object detection are statistically significant at 5%
 significance level. Image below is a snippet of objects detected by the object detection model.
-  <img src="https://user-images.githubusercontent.com/43470271/206466860-2d008886-7502-4e4a-a9ab-575af81a45fd.png">
+  <img src="https://user-images.githubusercontent.com/43470271/206466860-2d008886-7502-4e4a-a9ab-575af81a45fd.png" align="center">
 
 **Image Analysis(Bag of Visual Words)**
 For Bag of visual words, we used an image feature detector from the skimage image processing python package to extract key features across all MRT images. Take an image of a person as shown below, a human would identify the person’s key features as the nose, eyes and mouth. Hence, the image feature extractor aims to do the same. 
 
-<img src="https://user-images.githubusercontent.com/43470271/206468917-fd752a7e-d40b-43ef-8f26-2af6f1ecc166.png">
+<img src="https://user-images.githubusercontent.com/43470271/206468917-fd752a7e-d40b-43ef-8f26-2af6f1ecc166.png" align="center">
 
 K-means clustering was used thereafter to group and differentiate the most distinct and comprehensive features across all the MRT images(visual words). Finally, correlation analysis was performed to select the visual words that have a strong linear relationship with perception ratings of the images for each of the 3 image metrics.The following picture is an example of strongly correlated visual words identified in the MRT images 
 
