@@ -13,7 +13,7 @@ Research Question: **Leveraging Image Analysis and crowdsourcing to understand p
 <img src="https://user-images.githubusercontent.com/43470271/206454596-d93ee30a-badc-4fed-ba44-2feefb97ff40.png">
 
 The project artefacts in this repository includes:
-- Jupyter Notebook containing codes of image analyses (Color, Bag of Visual Words, Object Detection). Note that the codes were run on the Google Colab Platform but downloaded as Jupyter Notebook (.ipynb file extension)
+- Jupyter Notebook containing codes of image analyses (Color, Bag of Visual Words, Object Detection). Note that the Color and Bag of Visual Words codes were run on the Google Colab Platform but downloaded as Jupyter Notebook. (.ipynb file extension)
 - Presentation slide that has a high level description and explanation of our research project.
 
 Note: Any references used in the project has been both in the last slide of the presentation and at respective code cells in the Jupyter Notebook.
