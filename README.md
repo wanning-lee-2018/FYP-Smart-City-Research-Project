@@ -24,6 +24,7 @@ Note: Any references used in the project has been both in the last slide of the 
 <img src="https://user-images.githubusercontent.com/43470271/206454873-55f579a7-d350-41e3-97f0-f8ffad7158df.png">
 
 **Descriptive Statistics**
+
 Here are the results based on the image ratings derived from the survey responses:
 
 <table>
@@ -45,6 +46,7 @@ Here are the results based on the image ratings derived from the survey response
   </table>
   
 **Image Analysis(Colours)**
+
 For colours analysis, we used the skimage image processing python package to extract the RGB colours from each MRT image. Then, linear regression was applied on the colors extracted from each image to find out the effects of colors on image perception ratings for each of the 3 metrics (Beautiful,Safe, Welcome). Finally correlation analysis was done to select the colors that have a strong linear relationship with perception ratings of the images for each of the 3 image metrics. The results shown the the table below are statistically significant at 5% significance level. However, the r-square values of the linear regression models are low at 0.163, 0.098 and 0.123 respectively (for the qualities of "Beautiful", "Safe" and "Welcome”) which signifies that these colors alone are insufficient in explaining the changes in image ratings.
 
 <table>
@@ -66,6 +68,7 @@ For colours analysis, we used the skimage image processing python package to ext
   </table>
   
 **Image Analysis(Object Detection)**
+
  For object detection, we used a pre-trained deep learning object detection model from the opencv image processing python package to detect unique objects from all the MRT images and used correlation analysis to find the association between the unique objects detected in images and the perception ratings of the images for each of the 3 metrics (Beautiful,Safe, Welcome).
  
 The results shown in the "Summary of Insights" table under the Project Overview for object detection are statistically significant at 5%
@@ -75,6 +78,7 @@ significance level. Image below is a snippet of objects detected by the object d
 </p>
 
 **Image Analysis(Bag of Visual Words)**
+
 For Bag of visual words, we used an image feature detector from the skimage image processing python package to extract key features across all MRT images. Take an image of a person as shown below, a human would identify the person’s key features as the nose, eyes and mouth. Hence, the image feature extractor aims to do the same. 
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/43470271/206468917-fd752a7e-d40b-43ef-8f26-2af6f1ecc166.png">
