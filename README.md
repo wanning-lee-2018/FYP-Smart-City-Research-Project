@@ -73,6 +73,7 @@ significance level. Image below is a snippet of objects detected by the object d
 <p  align="center">
   <img src="https://user-images.githubusercontent.com/43470271/206466860-2d008886-7502-4e4a-a9ab-575af81a45fd.png">
 </p>
+
 **Image Analysis(Bag of Visual Words)**
 For Bag of visual words, we used an image feature detector from the skimage image processing python package to extract key features across all MRT images. Take an image of a person as shown below, a human would identify the person’s key features as the nose, eyes and mouth. Hence, the image feature extractor aims to do the same. 
 <p  align="center">
